@@ -1,0 +1,115 @@
+body {
+    color: #575757;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+a {
+    color: #c44044;
+    font-weight: bold;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+/*
+h1 {
+    font: 700 normal 22px "Open Sans", Helvetica, sans-serif;
+    margin-top: 0;
+    margin-bottom: 20px;
+    font-size: 45px;
+    text-transform: uppercase;
+}
+*/
+
+header {
+    text-align: center;
+/*    background-color: #3997d3;*/
+    padding: 25px;
+}
+
+footer {
+    background-color: #3997d3;
+    margin-top: 50px;
+}
+
+/* ********** TABLES ********** */
+
+thead {
+    background-color: #d9edf7;
+}
+
+table {
+    margin-top: 35px;
+}
+
+/*
+table {
+    display: table;
+    color: #333333;
+    background-color: #fff;
+    border-collapse: collapse;
+    border-spacing: 0;
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+table thead th,
+table tbody td,
+table tr td {
+    display: table-cell;
+    padding: 5px;
+    vertical-align: center;
+    text-align: center;
+    border: 1px solid rgba(189, 189, 189, .2);
+}
+
+table thead {
+    background-color: #00295b;
+    color: #fff;
+}
+table thead tr th {
+    height: 2em;
+}
+
+td, th {
+    text-align: left !important;
+}
+*/
+
+/*
+td:first-of-type, th:first-of-type {
+    text-align: center !important;
+}
+*/
+
+/*
+th {
+    color: #f0c818;
+}
+
+th:hover {
+    cursor: pointer;
+}
+*/
+
+/* ********** RESULTS ********* */
+
+#tournament-results {
+    font-family: "Open Sans", Helvetica, sans-serif;
+}
+
+#tournament-results h1 {
+    color: #3366ff;
+    font-weight: 700;
+    margin-top: 0;
+    margin-bottom: 5px;
+    font-size: 24px;
+    text-transform: uppercase;
+}
+
+#tournament-results p {
+    font-size: 16px;
+    line-height: 1.5;
+}
